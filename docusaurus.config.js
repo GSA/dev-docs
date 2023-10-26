@@ -24,7 +24,16 @@ const config = {
       },
     ],
   ],
-  clientModules: [require.resolve("./node_modules/@uswds/uswds")],
+  scripts: [
+    {
+      src: "https://unpkg.com/uswds@latest/dist/js/uswds-init.min.js",
+      defer: true,
+    },
+    {
+      src: "https://unpkg.com/uswds@latest/dist/js/uswds.min.js",
+      defer: true,
+    },
+  ],
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   presets: [
