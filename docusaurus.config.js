@@ -9,7 +9,7 @@ const config = {
   title: "Web Development @ GSA",
   tagline: "Your guide to launching compliant public websites at GSA",
   url: "https://tech.gsa.gov",
-  baseUrl: "/",
+  baseUrl: "/site/hursey013/dev-docs/",
   favicon: "img/favicon.ico",
   plugins: [
     [
