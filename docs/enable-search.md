@@ -4,9 +4,11 @@ sidebar_position: 5
 
 # Enable search
 
-Every GSA website intended for use by the public must have a search box.
+GSA websites intended for use by the public must include a search box.
 
+:::info
 Publicly accessible websites that don’t have on-site search should **[contact Search.gov](mailto:search@support.digitalgov.gov)** to get started. See the **[Search.gov Launch Guide](https://search.gov/manual/site-launch-guide.html)** for additional guidance.
+:::
 
 Regardless of which search tool you use, follow this high-level technical guidance for on-site search:
 

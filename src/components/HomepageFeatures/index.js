@@ -19,8 +19,8 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_done_re_oak4.svg").default,
     description: (
       <>
-        Ensure your website meets the guidance of the 21st Century IDEA Act, as
-        well as GSA specific web policies.
+        Ensure your website follows the guidance of the 21st Century IDEA Act,
+        as well as GSA specific web policies.
       </>
     ),
   },
@@ -30,7 +30,7 @@ const FeatureList = [
     description: (
       <>
         New guidance is released regularly, check here for new and updated
-        documentation as it becomes available.
+        guidance as it becomes available.
       </>
     ),
   },
@@ -44,7 +44,7 @@ function Feature({ Svg, title, description }) {
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
-        <p>{description}</p>
+        <p className="line-height-sans-6">{description}</p>
       </div>
     </div>
   );

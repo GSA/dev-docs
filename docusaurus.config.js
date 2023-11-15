@@ -7,9 +7,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Web Development @ GSA",
-  tagline: "Your guide to launching compliant public websites at GSA",
+  tagline: "Learn the basics of launching compliant public websites at GSA",
   url: "https://tech.gsa.gov",
-  baseUrl: "/site/hursey013/dev-docs/",
+  baseUrl: process.env.BASEURL || "/",
   favicon: "img/favicon.ico",
   plugins: [
     [
@@ -24,16 +24,7 @@ const config = {
       },
     ],
   ],
-  scripts: [
-    {
-      src: "https://unpkg.com/uswds@latest/dist/js/uswds-init.min.js",
-      defer: true,
-    },
-    {
-      src: "https://unpkg.com/uswds@latest/dist/js/uswds.min.js",
-      defer: true,
-    },
-  ],
+  clientModules: [require.resolve("./node_modules/@uswds/uswds")],
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   presets: [

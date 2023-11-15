@@ -17,3 +17,51 @@
   --ifm-color-primary-light: #{color($theme-color-primary-light)};
   --ifm-color-primary-lighter: #{color($theme-color-primary-lighter)};
 }
+
+.main-wrapper article {
+  @include u-line-height("sans", 6);
+}
+
+.preview-box-wrapper {
+  position: relative;
+  max-width: 100%;
+}
+
+.preview-box-wrapper {
+  margin: 1em 0;
+}
+
+.docus-preview-box {
+  background: #fff;
+  border: 2px solid #dedede;
+  border-radius: 1em;
+  padding: 1.5em;
+}
+
+.docus-preview-box.is-fullscreen {
+  height: 100% !important;
+  border-radius: 0;
+}
+
+.preview-box-fullscreen-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  background: #eee;
+  border: 2px solid #dedede;
+  border-radius: 14px;
+  transition: all 0.15s ease;
+  transform: scale(0);
+}
+
+.preview-box-wrapper:focus-within .preview-box-fullscreen-toggle,
+.preview-box-wrapper:hover .preview-box-fullscreen-toggle,
+.preview-box-fullscreen-toggle:focus {
+  transform: scale(1);
+}
+
+.preview-box-fullscreen-toggle svg {
+  fill: #696969;
+  width: 25px;
+}

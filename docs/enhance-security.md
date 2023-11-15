@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Enhance security
 
-All public-facing GSA websites must:
+GSA websites must:
 
 - Use a secure connection (HTTPS) to deliver services.
 - Enable HTTP Strict Transport Security, or HSTS, to instruct compliant browsers to assume HTTPS.
