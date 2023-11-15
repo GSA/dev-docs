@@ -24,6 +24,7 @@ export default function PreviewBox({
       const script = document.createElement("script");
       script.src = `https://unpkg.com/uswds@latest/dist/js/uswds.min.js`;
       script.id = "uswds-script";
+      script.defer = "true";
       document.body.appendChild(script);
       script.onload = () => {
         resolve();
@@ -100,7 +101,10 @@ export default function PreviewBox({
       <Frame
         head={
           <>
-            <link rel="stylesheet" href={`${baseUrl}styles.css`} />
+            <link
+              rel="stylesheet"
+              href="https://unpkg.com/uswds@latest/dist/css/uswds.min.css"
+            />
           </>
         }
         width="100%"
