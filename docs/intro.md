@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-OMB’s policy guidance (M-23-22) requires that agencies, including GSA, ensure their websites, web applications, digital services, and mobile applications conform to the following requirements and principles:
+**[OMB’s policy guidance (M-23-22)](https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/)** requires that agencies, including GSA, ensure their websites, web applications, digital services, and mobile applications conform to the following requirements and principles:
 
 - Accessible to people of diverse abilities
 - Consistent visual design and agency brand identity

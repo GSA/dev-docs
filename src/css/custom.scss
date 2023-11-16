@@ -10,12 +10,17 @@
 @forward "uswds";
 
 :root {
+  --aa-primary-color-rgb: #{color($theme-color-base)} !important;
   --ifm-navbar-padding-horizontal: 2rem;
   --ifm-color-primary: #{color($theme-color-primary)};
   --ifm-color-primary-dark: #{color($theme-color-primary-dark)};
   --ifm-color-primary-darker: #{color($theme-color-primary-darker)};
   --ifm-color-primary-light: #{color($theme-color-primary-light)};
   --ifm-color-primary-lighter: #{color($theme-color-primary-lighter)};
+}
+
+.aa-Autocomplete {
+  min-width: 200px;
 }
 
 .main-wrapper article {
