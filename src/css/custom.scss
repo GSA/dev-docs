@@ -20,7 +20,9 @@
 }
 
 .aa-Autocomplete {
-  min-width: 200px;
+  @include at-media("tablet") {
+    width: 200px !important;
+  }
 }
 
 .main-wrapper article {
