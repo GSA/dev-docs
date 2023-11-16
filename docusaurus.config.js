@@ -34,6 +34,11 @@ const config = {
       src: "https://unpkg.com/uswds@latest/dist/js/uswds.min.js",
       defer: true,
     },
+    {
+      async: true,
+      src: "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA",
+      id: "_fed_an_ua_tag",
+    },
   ],
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
